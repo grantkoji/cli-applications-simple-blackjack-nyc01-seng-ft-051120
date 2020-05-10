@@ -44,8 +44,7 @@ def hit?(sum)
     sum + new_card
   else
     invalid_command
-    prompt_user
-    get_user_input
+    hit?(sum)
   end
 end
 
